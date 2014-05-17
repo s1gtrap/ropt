@@ -1,3 +1,6 @@
+#ifndef H_ROPT
+#define H_ROPT
+
 /**
  * Checks if specified option is present in the specified arguments. Returns 
  * greater than 0 if present, 0 if not. The returned value is equal to the
@@ -10,3 +13,5 @@ unsigned int ropt_has(const char *opt_long, const char opt_short, int argc, cons
  * option is not present.
  */
 const char *ropt_get(const char *opt_long, const char opt_short, int argc, const char **argv);
+
+#endif
