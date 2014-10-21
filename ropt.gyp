@@ -7,6 +7,9 @@
 		'type': '<(library)',
 		'sources': [
 			'ropt.c'
-		]
+		],
+		'direct_dependent_settings': {
+			'include_dirs': [ '.' ]
+		}
 	} ]
 }
