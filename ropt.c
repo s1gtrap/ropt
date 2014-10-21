@@ -3,8 +3,9 @@
 #include "ropt.h"
 
 unsigned int ropt_has(const char *opt_long, const char opt_short, int argc, const char **argv) {
+	int i;
 	const char *arg;
-	for (int i = 0; i < argc; i++) {
+	for (i = 0; i < argc; i++) {
 		arg = argv[i];
 
 		if (*arg++ == '-') { // All opts start with a -
