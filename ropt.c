@@ -25,5 +25,5 @@ unsigned int ropt_has(const char *opt_long, const char opt_short, int argc, cons
 
 const char *ropt_get(const char *opt_long, const char opt_short, int argc, const char **argv) {
 	unsigned int index;
-	return (index = ropt_has(opt_long, opt_short, argc, argv)) ? index : NULL;
+	return (index = ropt_has(opt_long, opt_short, argc, argv)) ? argv[index] : NULL;
 }
