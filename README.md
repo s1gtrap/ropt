@@ -1,5 +1,7 @@
 # ROPT
 
+[![Build Status](https://travis-ci.org/bheart/ropt.svg?branch=master)](https://travis-ci.org/bheart/ropt)
+
 The simpler than dirt, 30-odd LOC, hardly-anything-compliant, command-line 
 interface parsing utility. It reads hyphens in arrays of strings and reports
 back.
@@ -18,3 +20,4 @@ I planted a gyp file. The rest is up to you.
 ## Licence
 
 See `LICENCE`.
+
